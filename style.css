@@ -102,7 +102,7 @@ section {
 
 .hero-image::before {
     content: '';
-    position: fixed;        /* fixed instead of background-attachment */
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
