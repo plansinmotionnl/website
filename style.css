@@ -488,6 +488,7 @@ section {
 
     .about-text-panel {
         order: 1;
+        padding: 40px 25px;
     }
     
     .about-photo-panel {
@@ -537,6 +538,6 @@ section {
 
     section {
         min-height: auto;
-        padding: 40px 0;
+        padding: 60px 0;
     }
 }
