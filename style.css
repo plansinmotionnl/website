@@ -481,21 +481,13 @@ section {
         background-attachment: scroll;
     }
 
-    .about {
-        padding: 20px;
-        align-items: stretch;
-    }
-
     .about-content {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        width: 100vw;
     }
 
     .about-text-panel {
         order: 1;
-        padding: 40px 20px;
-        width: 100vw;
     }
     
     .about-photo-panel {
