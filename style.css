@@ -92,24 +92,25 @@ section {
 
 .hero-image {
     position: relative;
-    min-height: 100vh;
-    background-image: url('images/background2.jpeg');
-    background-size: cover;
-    background-position: center;
+    min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    overflow: hidden;
 }
 
 .hero-image::before {
     content: '';
-    position: absolute;
+    position: fixed;        /* fixed instead of background-attachment */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1;
+    background-image: url('images/background2.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 .hero-image-content {
