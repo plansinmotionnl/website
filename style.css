@@ -18,7 +18,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Raleway', sans-serif; /* Always include a generic family as a fallback */
+    font-family: 'Raleway', sans-serif;
     color: #5A47C9;
 }
 
@@ -31,6 +31,7 @@ h2 {
 }
 
 /* Navigation Menu */
+
 nav {
     position: fixed;
     top: 0;
@@ -92,10 +93,9 @@ section {
 .hero-image {
     position: relative;
     min-height: 100vh;
-    background-image: url('images/background2.jpeg');  /* Placeholder image */
+    background-image: url('images/background2.jpeg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;  /* Parallax effect */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,8 +117,8 @@ section {
     z-index: 2;
     text-align: center;
     max-width: 800px;
-    padding: 40px 60px;  /* Add padding inside the border */
-    background: rgba(72, 55, 168, 0.8);  /* Optional: slight background for contrast */
+    padding: 40px 60px;
+    background: rgba(72, 55, 168, 0.8);
 }
 
 .hero-image h1 {
@@ -149,8 +149,8 @@ section {
     align-items: center;
     gap: 0;
     min-height: 100vh;
-    align-items: stretch;  /* Make children fill height */
-    width: 100%;  /* Ensure container is full width */
+    align-items: stretch;
+    width: 100%;
 }
 
 .about-photo-panel {
@@ -177,7 +177,7 @@ section {
     flex-direction: column;
     justify-content: center;
     padding: 60px 60px;
-    width: 100%;  /* Fill column width */
+    width: 100%;
 
 }
 
@@ -285,7 +285,7 @@ section {
 .services {
     background: #f5f7fa;
     color: #333;
-    position: relative;  /* Add positioning context */
+    position: relative;
 }
 
 .services-content {
@@ -301,7 +301,7 @@ section {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  /* Two equal columns */
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
@@ -324,8 +324,8 @@ section {
     color: white;
     margin-bottom: 20px;
     font-weight: 400;
-    padding-bottom: 15px;  /* Space between text and line */
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);  /* Underline */
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .service-block ul {
@@ -349,8 +349,8 @@ section {
     color: white;
     font-size: 1rem;
     line-height: 1.6;
-    width: 20px;  /* Fixed width for alignment */
-    text-align: left;  /* Align icons to left */
+    width: 20px;
+    text-align: left;
 }
 
 .service-block li:before {
@@ -361,13 +361,13 @@ section {
 .services::after {
     content: '';
     position: absolute;
-    bottom: -60px;  /* Push below the section */
+    bottom: -60px;
     left: 0;
     width: 0;
     height: 0;
     border-left: 50vw solid transparent;
     border-right: 50vw solid transparent;
-    border-top: 60px solid #f5f7fa;  /* Match services background color */
+    border-top: 60px solid #f5f7fa;
     z-index: 10;
 }
 
@@ -404,13 +404,13 @@ section {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 0;  /* Remove padding */
-    background: none;  /* Remove background */
-    border-radius: 0;  /* Remove border radius */
+    padding: 0;
+    background: none;
+    border-radius: 0;
     text-decoration: none;
-    color: white;  /* White text on purple */
+    color: white;
     font-size: 1.2rem;
-    box-shadow: none;  /* Remove shadow */
+    box-shadow: none;
     transition: all 0.3s ease;
 }
 
@@ -419,7 +419,7 @@ section {
 }
 
 .contact-link:hover {
-    transform: scale(1.05);  /* Keep friendly hover */
+    transform: scale(1.05);
     box-shadow: none;
     background: none;
 }
@@ -476,19 +476,23 @@ section {
         text-align: center;
     }
 
+    .hero-image {
+        background-attachment: scroll;
+    }
+
     .about-content {
-        grid-template-columns: 1fr;  /* Stack to single column */
-        grid-template-rows: auto auto;  /* Two rows */
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
     }
 
     .about-text-panel {
-        order: 1;  /* Text panel first */
+        order: 1;
     }
     
     .about-photo-panel {
-        order: 2;  /* Photo panel second */
+        order: 2;
         padding: 0;
-        min-height: 50vh;  /* Give it some height on mobile */
+        min-height: 50vh;
     }
 
     .about-image {
@@ -517,7 +521,7 @@ section {
         
    .credentials::after,
    .services::after {
-        display: none;  /* Hide triangles on mobile */
+        display: none;
     }
 
     .services-grid {
