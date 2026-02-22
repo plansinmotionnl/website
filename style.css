@@ -488,7 +488,8 @@ section {
 
     .about-text-panel {
         order: 1;
-        padding: 40px 25px;
+        padding: 40px 20px;
+        width: 100vw;
     }
     
     .about-photo-panel {
