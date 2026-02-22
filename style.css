@@ -481,9 +481,15 @@ section {
         background-attachment: scroll;
     }
 
+    .about {
+        padding: 0;
+        align-items: stretch;
+    }
+    
     .about-content {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
+        width: 100vw;
     }
 
     .about-text-panel {
