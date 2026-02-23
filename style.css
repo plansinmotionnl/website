@@ -260,7 +260,7 @@ section {
 }
 
 .feature-item p {
-    font-size: 1rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     line-height: 1.6;
     font-weight: 600;
     color: white;
