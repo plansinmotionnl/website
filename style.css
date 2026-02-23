@@ -23,11 +23,11 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
 }
 
-h2 {
-    font-size: clamp(1.2rem, 1.5vw, 2rem);
+h3 {
+    font-size: clamp(1.2rem, 2.0vw, 2rem);
 }
 
 /* Navigation Menu */
@@ -63,7 +63,7 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: #5A47C9;
-    font-size: 1.1rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -129,7 +129,7 @@ section {
 }
 
 .hero-image p {
-    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     line-height: 1.8;
     text-align: justify;
 }
@@ -205,7 +205,7 @@ section {
     color: white;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 4px;
     transition: all 0.3s ease;
@@ -342,7 +342,6 @@ section {
 }
 
 .service-block h3 {
-    font-size: 1.5rem;
     color: white;
     margin-bottom: 20px;
     font-weight: 400;
@@ -359,7 +358,7 @@ section {
     padding: 8px 0;
     padding-left: 50px;
     position: relative;
-    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     line-height: 1.6;
 }
 
@@ -373,9 +372,6 @@ section {
     line-height: 1.6;
     width: 20px;
     text-align: left;
-}
-
-.service-block li:before {
     content: "\e4be";
 }
 
@@ -407,7 +403,6 @@ section {
 }
 
 .contact-content h3 {
-    font-size: 1.5rem;
     margin-bottom: 50px;
     font-weight: 400;
     line-height: 1.4;
@@ -419,7 +414,6 @@ section {
     flex-direction: column;
     gap: 25px;
     margin-top: 40px;
-    font-size: 1.2rem;
 }
 
 .contact-link {
@@ -438,7 +432,7 @@ section {
 
 .contact-link p,
 .contact-link span {
-    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
 }
 
 .blockspam {
