@@ -507,10 +507,10 @@ section {
         text-align: center;
     }
 
-
     .about-features {
         grid-template-columns: 1fr;
         gap: 30px;
+        padding: 60px 40px;
     }
 
     .feature-item {
