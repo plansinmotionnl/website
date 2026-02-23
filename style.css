@@ -375,6 +375,19 @@ section {
     content: "\e4be";
 }
 
+.service-block-photo {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 4px;
+}
 
 .services::after {
     content: '';
