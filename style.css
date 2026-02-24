@@ -288,6 +288,7 @@ section {
 }
 
 .degree-name {
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     font-weight: 300;
 }
 
@@ -513,6 +514,10 @@ section {
     .hero-image {
         background-attachment: scroll;
     }
+
+.hero-image p {
+    text-align: center;
+}
 
     .about-content {
         grid-template-columns: 1fr;
