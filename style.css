@@ -107,7 +107,7 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('images/background2.jpeg');
+    background-image: url('images/background.webp');
     background-size: cover;
     background-position: center;
     z-index: -1;
